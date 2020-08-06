@@ -1,0 +1,175 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="css/mediaphotostyles.css" type="text/css" rel="stylesheet">
+        
+
+    </head>
+
+    <body>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav my_nav_center">
+                <a class="nav-item nav-link" style="color:white" href="/index.html"><span class="menuunderline">Home</span><span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" style="color:white" href="/about.html"><span class="menuunderline">About</span></a>
+                <a class="nav-item nav-link" style="color:white" href="/discography.html"><span class="menuunderline">Discography</span></a>
+                <a class="nav-item nav-link active" style="color:white" href="/media.html"><span class="menuunderline">Media</span></a>
+                <a class="nav-item nav-link" style="color:white" href="/merch.html"><span class="menuunderline">Merch</span></a>
+                <a class="nav-item nav-link" style="color:white" href="/tourdates.html"><span class="menuunderline">Tour</span></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+          
+          <br><br><br><br>
+         
+          <div class="container-lg">
+          <div class="row">
+            <div class="col-3 offset-1 backbutton">
+              <a href="/media.html">
+                <img src="/images/Group_17.png" height= "36px" width="36px" class="rounded float-left backbutton" alt="Responsive image">
+                    </a>
+
+            </div>
+            <div class="col-6 offset-1 header">
+              <p class="text">SADE</p>
+              <p class="subheader">Photography</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <br><br><br><br>
+          <div class="container">
+            <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+              <div class="col-12 col-lg-4 image1">
+                <img class="w-100" src="/images/first.jpg" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="0">  
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img  class="w-100" src="/images/second.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="1"> 
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img class="w-100" src="/images/third.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="2">
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="container">
+            <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+              <div class="col-12 col-lg-4 image1">
+                <img class="w-100" src="/images/secondfirst.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="3">    
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img  class="w-100" src="/images/secondsecond.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="4">  
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img  class="w-100" src="/images/secondthird.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="5">
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="container">
+            <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+              <div class="col-12 col-lg-4 image1">
+                <img  class="w-100" src="/images/thirdfirst.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="6">
+            
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img class="w-100" src="/images/thirdsecond.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="7">
+              </div>
+              <div class="col-12 col-lg-4 image1">
+                    <img class="w-100" src="/images/thirdthird.png" height= "330px" width="370px" class="rounded float-left image1" alt="Responsive image" data-target="#carouselExample" data-slide-to="8">
+              </div>
+            </div>
+          </div>
+
+        
+          <!-- Modal -->
+<!-- 
+This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="3"></li>
+            <li data-target="#carouselExample" data-slide-to="4"></li>
+            <li data-target="#carouselExample" data-slide-to="5"></li>
+            <li data-target="#carouselExample" data-slide-to="6"></li>
+            <li data-target="#carouselExample" data-slide-to="7"></li>
+            <li data-target="#carouselExample" data-slide-to="8"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/first.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/second.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/third.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/secondfirst.png" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/secondsecond.png" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/secondthird.png" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/thirdfirst.png" alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/thirdsecond.png" alt="Eight slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/thirdthird.png" alt="Ninth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+          <script src="js/mediaphoto.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
