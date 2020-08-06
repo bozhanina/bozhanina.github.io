@@ -51,11 +51,10 @@
 
 
 .my_nav_center{
-    text-align: center;
-    margin-left: 480px;
-    margin-top:10px;
-    font-size: 18px;
-  }
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+}
 
   button:focus {
     outline: none;
