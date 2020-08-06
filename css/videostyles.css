@@ -1,0 +1,108 @@
+body {
+    background-color:black;
+}
+
+
+.text {
+  Font-size: 50px;
+  letter-spacing: 30;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 239px;
+  color:white
+  
+
+}
+
+.subheader {
+  Font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 80px;
+  color:white
+}
+
+.my_nav_center{
+  text-align: center;
+  margin-left: 480px;
+  margin-top:10px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px){
+  .my_nav_center{
+    margin-left: 0px;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/images/menu.png");
+  margin-top:20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.image1 {
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right:20px;
+  Padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.songname {
+    margin-top: 5px;
+}
+
+@media (max-width: 768px){
+  .col-sm{
+    margin-bottom: 15px;
+  }
+}
+
+
+#navbarNavAltMarkup
+
+/* Style the links inside the navigation bar */
+#navbarNavAltMarkup a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  #navbarNavAltMarkup a:hover .menuunderline{
+    border-bottom: 2px solid white;
+  }
+  
+  #navbarNavAltMarkup a.active .menuunderline {
+    border-bottom: 2px solid white;
+  }
+
+  .backbutton {
+    margin-top: 10px;
+  }
+  
+  .offset-1 {
+    margin-left: 0px; 
+  }
+  
+  .col-6 {
+    max-width: 100%
+  }
+  
+  @media (min-width: 576px) {
+    .backbutton {
+      max-width: 100%;
+    }
+  }
