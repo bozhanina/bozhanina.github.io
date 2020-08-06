@@ -1,0 +1,166 @@
+body {
+    background-color:black;
+}
+
+
+.text {
+  Font-size: 50px;
+  letter-spacing: 30;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 239px;
+  color:white
+  
+
+}
+
+.subheader {
+  Font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 125px;
+  color:white
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/images/menu.png");
+  margin-top:20px;
+}
+
+
+.my_nav_center{
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px){
+  .my_nav_center{
+    margin-left: 0px;
+  }
+}
+
+.image1 {
+
+  width: 100%;
+  padding:10px;
+}
+
+.text1 {
+    float:left;
+    width: 200px;
+
+}
+
+.prd {
+  width: 270px;
+  float:left;
+  padding-bottom: 20px;
+}
+
+.desc {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.desc.hover {
+  color: white;
+  text-decoration: none;
+  
+
+}
+
+h1 {
+    font-size: 16px;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    color:white
+
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color:white
+}
+
+p {
+    Font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color:white
+}
+
+.color {
+    padding-right: 2px;
+    padding-left: 2px;
+
+}
+
+
+
+.sizes {
+    Font-size: 16px;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+    color:white
+    
+}
+
+
+#navbarNavAltMarkup
+
+/* Style the links inside the navigation bar */
+#navbarNavAltMarkup a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  #navbarNavAltMarkup a:hover .menuunderline{
+    border-bottom: 2px solid white;
+  }
+  
+  #navbarNavAltMarkup a.active .menuunderline {
+    border-bottom: 2px solid white;
+  }
+
+.categories {
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.products {
+    width: 80%;
+    float: left;
+    /* width: 620px; */
+}
+
+@media (max-width: 768px){
+    .categories {
+        width: 50%;
+        height: 200px;
+        float: left;
+    }
+    .products {
+        width: 100%;
+    }
+    .prd {
+        width: 152px;
+    }
+    .text1 {
+        float: none;
+        margin: auto;
+    }
+}
