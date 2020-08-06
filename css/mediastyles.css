@@ -29,11 +29,9 @@ body {
 
 .my_nav_center{
   text-align: center;
-  margin-left: 480px;
-  margin-top:10px;
+  margin: auto;
   font-size: 18px;
 }
-
 button:focus {
   outline: none;
 }
