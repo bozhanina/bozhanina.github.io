@@ -17,9 +17,9 @@ body, html {
   
  
   .my_nav_center{
-    margin: auto;
-    font-size: 18px;
     text-align: center;
+    margin: auto;
+    font-size: 18px; 
   }
 
   button:focus {
