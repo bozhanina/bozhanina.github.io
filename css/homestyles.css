@@ -41,12 +41,13 @@ body, html {
 
   .onlyheader {
       Font-size: 39px;
-      letter-spacing: 70;
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
-      color: white;
-      margin: auto;
-      width: 100%;
+    letter-spacing: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-left: 33px;
+
   }
 
 @media (min-width: 768px){
