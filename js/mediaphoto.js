@@ -1,4 +1,12 @@
+$( ".image1" ).click(function() {
+  $(".backbutton").css("visibility", "hidden");
+});
+$( ".close" ).click(function() {
+  $(".backbutton").css("visibility", "visible");
+});
+
 function switchStyle() {
+  
   if (document.getElementById('styleSwitch').checked) {
     document.getElementById('gallery').classList.add("custom");
     document.getElementById('exampleModal').classList.add("custom");
