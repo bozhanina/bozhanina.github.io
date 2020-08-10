@@ -51,8 +51,10 @@ body, html {
 
 @media (max-width: 768px){
     .onlyheader{
-        Font-size: 101px;
+        max-width: 100%;
+        Font-size: 38px;
         width: 476px;
+  
     }
 }
 
