@@ -49,7 +49,7 @@ body, html {
       width: 314px;
   }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .onlyheader{
         Font-size: 101px;
         width: 476px;
